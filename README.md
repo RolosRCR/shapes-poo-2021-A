@@ -1,4 +1,5 @@
 <div hidden>
+
 ```
 @startuml firstDiagram
 
@@ -18,6 +19,7 @@ class Equilatero extends Triangle
 
 @enduml
 ```
+
 </div>
 
 ![](firstDiagram.svg)
