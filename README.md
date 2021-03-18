@@ -17,6 +17,7 @@ class Square extends Shape
 class Equilatero extends Triangle
 
 @enduml
+```
 </div>
 
 ![](firstDiagram.svg)
