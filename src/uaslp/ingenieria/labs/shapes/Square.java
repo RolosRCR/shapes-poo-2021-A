@@ -5,6 +5,10 @@ import uaslp.ingenieria.labs.Shape;
 public class Square extends Shape {
     private int side;
 
+    public int getSidesCount() {
+        return 4;
+    }
+
     public Square(int side) {
         this.side = side;
     }
@@ -13,7 +17,10 @@ public class Square extends Shape {
         return "Square";
     }
 
-    public int getPerimeter() {
+    public double getPerimeter() {
         return side * 4;
+    }
+    public double getArea() {
+        return side * side;
     }
 }
